@@ -1,0 +1,623 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Ecommerce Home page - Precious Iriaevho</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name='description' content='' />
+
+    <meta name='keywords' content='' />
+
+    <meta name='author' content='Precious Iriaevho' />
+
+    <style>
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            overflow: auto;
+            width: 100%;
+            height: px;
+        }
+        
+        .header .floated3 span {
+            font-family: candara;
+            font-size: 20px;
+            margin-right: 5px;
+        }
+        
+        .header .floated3 span a {
+            text-decoration: none;
+            font-family: candara;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .header .floated1 {
+            padding: 0px;
+            width: 27%;
+            float: left;
+            height: 80px;
+            padding-top: 10px;
+            border: px solid black;
+            margin-right: 15px;
+        }
+        
+        .header .floated2 {
+            width: 50%;
+            float: left;
+            height: px;
+            padding-top: 20px;
+            text-align: center;
+            border: px solid black;
+        }
+        
+        .header .floated3 {
+            width: 20%;
+            float: right;
+            height: px;
+            text-align: center;
+            padding-top: 30px;
+            border: px solid black;
+        }
+        
+        .footer {
+            overflow: auto;
+            width: 100%;
+            height: px;
+            background-color: pink;
+        }
+        
+        .footer .floated1 {
+            padding: 0px;
+            width: 28%;
+            float: left;
+            height: px;
+            padding-top: 10px;
+            border: px solid black;
+            margin-right: 15px;
+            padding-left: 10px;
+        }
+        
+        .footer .floated2 {
+            width: 68%;
+            float: right;
+            height: px;
+            padding-top: 20px;
+            text-align: center;
+            border: px solid black;
+        }
+        
+        .footer-main {
+            overflow: auto;
+            width: 100%;
+            height: px;
+            background-color: white;
+            clear: both;
+            margin: 30px 0 30px 0;
+        }
+        
+        .footer-main .floated1 {
+            padding: 0px;
+            width: 24%;
+            float: left;
+            height: px;
+            padding-top: 10px;
+            border: px solid black;
+            margin-right: 15px;
+            padding-left: 3px;
+        }
+        
+        .footer-main .floated2 {
+            padding: 0px;
+            width: 24%;
+            float: left;
+            height: px;
+            padding-top: 10px;
+            border: px solid black;
+            margin-right: 15px;
+        }
+        
+        .footer-main .floated3 {
+            padding: 0px;
+            width: 24%;
+            float: left;
+            height: px;
+            padding-top: 10px;
+            border: px solid black;
+            margin-right: 15px;
+        }
+        
+        .footer-main .floated4 {
+            width: 24%;
+            float: right;
+            height: px;
+            padding-top: 10px;
+            border: px solid black;
+        }
+        
+        .products-grid {
+            clear: both;
+            overflow: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .products-grid {
+            font-family: candara;
+            width: 100%;
+        }
+        
+        .products-grid .floated1,
+        .products-grid .floated2,
+        .products-grid .floated3,
+        .products-grid .floated4,
+        .products-grid .floated5 {
+            float: left;
+            width: 15%;
+            margin-right: 19px;
+            text-align: center;
+            padding: 2px;
+            border: px solid black;
+        }
+        
+        .products-grid .floated6 {
+            float: right;
+            width: 15%;
+            text-align: center;
+            padding: 2px;
+            border: px solid black;
+        }
+        
+        [type='search'] {
+            padding: 10px;
+            color: black;
+            width: 65%;
+            border: 2px solid red;
+        }
+        
+        [type='text'] {
+            padding: 10px;
+            color: black;
+            width: 65%;
+            border: 2px solid green;
+        }
+        
+        [type='button'] {
+            padding: 10px;
+            color: black;
+            width: 30%;
+            background-color: magenta;
+            color: white;
+            font-family: candara;
+            font-size: 15px;
+        }
+        
+        [type='submit'] {
+            padding: 8px;
+            color: black;
+            width: 80%;
+            background-color: magenta;
+            color: white;
+            font-family: candara;
+            font-size: 15px;
+        }
+        
+        .hr {
+            clear: both;
+            margin: 0 auto;
+            color: magenta;
+            width: 800px;
+            border: 2px solid;
+        }
+        
+        .slidy {
+            overflow: auto;
+            clear: both;
+        }
+        
+        .side-links {
+            list-style: url('images/arrow.png') inside;
+            font-size: 20px;
+            float: left;
+            width: 28%;
+            margin-right: 20px;
+        }
+        
+        .side-links ul li {
+            padding: 10px;
+            background-color: white;
+            border-bottom: 2px solid;
+            ;
+        }
+        
+        .side-links ul li a {
+            text-decoration: none;
+            font-family: candara;
+            font-weight: bold;
+        }
+        
+        .slide {
+            float: right;
+            width: 70%;
+        }
+        
+        .nav {
+            text-align: center;
+            background-color: magenta;
+            padding: 1px;
+        }
+        
+        .nav a {
+            text-decoration: none;
+            font-family: candara;
+            font-weight: bold;
+            font-size: 20px;
+            color: white;
+            margin-left: px;
+        }
+        
+        #menu {
+            list-style-type: none;
+        }
+        
+        #menu li {
+            display: inline-block;
+            border: px solid red;
+            margin-right: 10px;
+            width: 100px;
+            background-color: black;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+        p {
+            text-decoration: none;
+            font-family: candara;
+            font-size: 15px;
+        }
+        
+        h3 {
+            font-family: candara;
+            font-size: 20px;
+            color: magenta;
+            text-align: center;
+        }
+        
+        .footer-main a {
+            text-decoration: none;
+            font-family: candara;
+            font-weight: bold;
+            font-size: 15px;
+            border-bottom: 1px solid;
+        }
+        
+        .footer-main ul {
+            list-style-type: none;
+            text-align: center;
+        }
+        
+        .footer-main ul li {
+            padding: 5px;
+        }
+        
+        [placeholder] {
+            font-family: candara;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class='container'>
+
+        <div class='header'>
+            <div class='floated1'>
+                <img src="images/sneak.png" width='' alt="">
+            </div>
+            <div class='floated2'>
+                <input type='search' placeholder='Type in Sneakers Name!'>
+                <input type="button" value="Search Sneakers">
+            </div>
+            <div class='floated3'>
+                <img src="images/user1.png" width='15' alt=""> <span><a href=''>Login</a></span>
+                <img src="images/help.png" width='15' alt=""> <span><a href=''>Help</a></span>
+                <img src="images/shopping-cart.png" width='15' alt=""> <span><a href=''>Cart</a></span>
+
+            </div>
+        </div>
+
+
+
+        <div class="nav">
+            <!--            <a href=''>Home | </a><a href=''>Shipping | </a> <a href=''>Coupons | </a> <a href=''>Sneakers Offers | </a> <a href=''>About</a>-->
+            <ul id='menu'>
+                <li><a href=''>Home</a></li>
+                <li><a href=''>Sneakers</a></li>
+                <li><a href=''>About</a></li>
+                <li><a href=''>Contact Us</a></li>
+                <li><a href=''>Orders</a></li>
+                <li><a href=''>Offers</a></li>
+                <li><a href=''>Affiliate</a></li>
+                <li><a href=''>Users</a></li>
+            </ul>
+        </div>
+
+
+
+        <div class="slidy">
+
+            <div class='side-links'>
+                <ul>
+                    <li><a href=''>Original Sneakers</a></li>
+                    <li><a href=''>Original Sneakers</a></li>
+                    <li><a href=''>Original Sneakers</a></li>
+                    <li><a href=''>Original Sneakers</a></li>
+                    <li><a href=''>Original Sneakers</a></li>
+                    <li><a href=''>Original Sneakers</a></li>
+                    <li><a href=''>Original Sneakers</a></li>
+                    <li><a href=''>Original Sneakers</a></li>
+                    <li><a href=''>Original Sneakers</a></li>
+                    <li><a href=''>Original Sneakers</a></li>
+
+                </ul>
+            </div>
+            <div class='slide'>
+                <marquee behavior='alternate'>
+
+                    <img src="images/slide.png" alt="">
+                </marquee>
+
+            </div>
+        </div>
+
+        <hr class='hr' />
+
+        <div class='products-grid'>
+            <div class='floated1'>
+                <img src="images/1.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated2'>
+                <img src="images/2.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated3'>
+                <img src="images/3.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated4'>
+                <img src="images/6.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated5'>
+                <img src="images/5.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated6'>
+                <img src="images/6.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+
+        </div>
+
+        <hr class='hr' />
+
+
+        <div class='products-grid'>
+            <div class='floated1'>
+                <img src="images/1.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated2'>
+                <img src="images/2.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated3'>
+                <img src="images/3.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated4'>
+                <img src="images/6.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated5'>
+                <img src="images/5.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated6'>
+                <img src="images/6.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+        </div>
+
+        <hr class='hr' />
+
+        <div class='products-grid'>
+            <div class='floated1'>
+                <img src="images/1.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated2'>
+                <img src="images/2.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated3'>
+                <img src="images/3.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated4'>
+                <img src="images/6.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated5'>
+                <img src="images/5.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+
+            <div class='floated6'>
+                <img src="images/6.jpg" width='150' alt="">
+                <h3>Black Green Shoe</h3>
+                <h4><span>₦ 5,000</span>
+                    <span><del>₦ 5,000</del></span>
+                </h4>
+                <input type="submit" value="Buy Now">
+            </div>
+        </div>
+
+        <hr class='hr' />
+
+        <div class='footer'>
+            <div class='floated1'>
+                <img src="images/sneak.png" width='' alt="">
+            </div>
+            <div class='floated2'>
+                <input type='text' placeholder='Enter Email Address!'>
+                <input type="button" value="Subscribe">
+            </div>
+
+        </div>
+
+
+        <div class="footer-main">
+            <div class='floated1'>
+                <h3>Sneakers Palace</h3>
+                <p>We are an Imaginary sneakers company. We sell sneakers to no one in particular but just check our inventory.</p>
+            </div>
+            <div class='floated2'>
+                <h3>Footer Links</h3>
+                <ul>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                </ul>
+            </div>
+            <div class='floated3'>
+                <h3>Footer Links</h3>
+                <ul>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                </ul>
+            </div>
+            <div class='floated4'>
+                <h3>Footer Links</h3>
+                <ul>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                    <li><a href="#">Dummy Link</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class='hr' />
+
+        <div class="foot">
+            <p align="center">Copyright 2021 | Website Designed Happily by Precious</p>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
